@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Arial', sans-serif;
+}
+button[type="submit"]{
+    width: 65px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rebeccapurple;
+    color: #ffffff;
+}
+button[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #d8d8d8;
+}
+img{
+    width: 100%;
+}
+
+label{
+    font-size: 1.2em;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    line-height: 5;
+}
+li{
+    list-style: none;
+}
+
+/* HELPER CLASS*/
+
+.belt{
+    padding: 0 10%;
+}
