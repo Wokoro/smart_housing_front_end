@@ -1,0 +1,62 @@
+footer{
+    margin-top: 70px;
+    background-color: rgb(36, 4, 69);
+    color: #FFFFEE;
+}
+footer .items-holder{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.items{
+    width: 25%;
+    word-spacing: 2px;
+    word-break: break-word;
+    margin: 20px;
+}
+.items h3{
+    font-size: 2em;
+    font-weight: 600;
+    word-break: initial;
+    letter-spacing: 0.04em
+}
+.items ul li a{
+    font-size: 1.1em;
+    line-height: 2.5;
+    text-decoration: none;
+    color: #833cca;
+}
+.items ul li a:hover{
+    color: #917EA4;
+}
+.items .contact{
+    margin-top: 15px;
+}
+
+.about-us p{
+    margin-top: 20px;
+    font-size: 1.1em;
+    line-height: 2;
+}
+.contact h3{
+    font-size: 1.1em;
+    line-height: 2;
+    letter-spacing: 0.01em
+}
+.contact p, .contact address{
+    margin-top: 6px;
+    color: #c992ff;
+}
+.social-media{
+    margin-top: 20px;
+}
+.social-media li{
+    display: inline;
+    padding: 10px;
+}
+.rm-left-pad{
+    padding-left: 0 !important;
+}
+.text-em1{
+    font-weight: 600;
+}
